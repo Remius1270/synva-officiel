@@ -29,7 +29,7 @@
         </td>
         <td>
           <div class="block" >
-            <a href="{{url('foramton/admission')}}">Admission</a>
+            <a href="{{url('foramtion/admission')}}">Admission</a>
           </div>
         </td>
       <tr/>
