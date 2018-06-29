@@ -1,7 +1,7 @@
 @include('partials.admin_header')
 
 
-<div class='content col-md-8 centered'>
+<div class='content centered'>
   <table class="table">
   <thead>
     <tr>
