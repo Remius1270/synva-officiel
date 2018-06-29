@@ -1,5 +1,8 @@
 <?php
 
+  session_start();
+  $_SESSION['session'] = '';
+
 /**
  * Laravel - A PHP Framework For Web Artisans
  *

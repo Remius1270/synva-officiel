@@ -11,11 +11,22 @@
 |
 */
 
+// Visitor routes
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('accueil');
 });
 
+Route::get('formation/{specification}','GlobalController@get_formation');
+Route::get('section/{view}','GlobalController@get_view');
 
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
+Route::post('create_candidature','CandidaturesController@create_candidature');
+
+// Admin routes
+
+Route::get('admin','globalController@admin');
+Route::get('admin/inscriptions','globalController@inscriptions_liste');
+Route::get('admin/inscriptions/candidature/{id}','globalController@display_one');
+Route::get('disconnect','GlobalController@disconnect');
+
+Route::post('login','globalController@login');
