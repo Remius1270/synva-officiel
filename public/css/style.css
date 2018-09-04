@@ -12,7 +12,7 @@ footer{
   display: block;
   height: 100px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
@@ -21,6 +21,12 @@ footer{
   bottom: 0;
   color: white;
   text-align: center;
+}
+
+header{
+  display: block;
+  max-height: 215px;
+  width: 100%;
 }
 
 .options{
@@ -40,19 +46,23 @@ footer{
 
 .fit-in-banner{
   width: auto;
-  max-height: 177px;
+  max-height: 100px;
+  position: absolute;
+  top: 0px;
 }
 
 .synva-container{
   display: inline-block;
   text-align: center;
   align-items: center;
-  height: 177px;
+  height: 100px;
   padding: 0;
 }
 
 .banner-logo{
-  max-width: 100%;
+  max-height: 100px;
+  position: absolute;
+  left: 25px;
 }
 
 .nav-link{
@@ -91,7 +101,7 @@ footer{
 .content{
   padding-left: 50px;
   padding-right: 50px;
-  min-height: 100%;
+  max-height: 100%;
   display: block;
   top: 215px;
   padding-top: 20px;
