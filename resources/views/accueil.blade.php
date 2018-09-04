@@ -1,6 +1,6 @@
 @include('partials.header')
 
-<div class='content'>
+<div class='content col-md-8'>
   <table class="options">
     <thead>
     </thead>
@@ -29,7 +29,7 @@
         </td>
         <td>
           <div class="block" >
-            <a href="{{url('foramtion/admission')}}">Admission</a>
+            <a href="{{url('formation/admission')}}">Admission</a>
           </div>
         </td>
       <tr/>

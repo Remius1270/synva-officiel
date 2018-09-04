@@ -64,7 +64,7 @@ class GlobalController extends Controller
 
   public function disconnect()
   {
-    $_SESSION['session'] = '';
+    $_SESSION['session'] = 'papassword';
     return redirect('admin');
   }
 }

@@ -39,7 +39,7 @@
             <div id='ariane' ></div>
       <div class="btn-group menu" role="group" aria-label="Button group with nested dropdown">
         <div class="btn-group" role="group">
-          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button id="btnGroupDrop1" type="button" class="btn btn// border-radius dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Formation
           </button>
           <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
@@ -50,9 +50,9 @@
             <a class="dropdown-item" href="{{url('formation/admission')}}">L'admission</a>
           </div>
         </div>
-        <a  href="{{url('section/opensim')}}" class="btn btn-secondary">OpenSim</a>
-        <a  href="{{url('section/galerie')}}" class="btn btn-secondary">Galerie d'images</a>
-        <a  href="{{url('section/inscription')}}" class="btn btn-secondary">Inscription</a>
+        <a  href="{{url('section/opensim')}}" class="btn ">OpenSim</a>
+        <a  href="{{url('section/galerie')}}" class="btn ">Galerie d'images</a>
+        <a  href="{{url('section/inscription')}}" class="btn ">Inscription</a>
       </div>
     </nav>
   </div>

@@ -38,9 +38,9 @@
     <nav class="navbar navbar-dark bg-dark">
             <div id='ariane' ></div>
       <div class="btn-group menu" role="group" aria-label="Button group with nested dropdown">
-        <a  href="{{url('section/opensim')}}" class="btn btn-secondary">Inscriptions</a>
-        <a  href="{{url('section/galerie')}}" class="btn btn-secondary">Gestionnaire de médias</a>
-        <a  href="{{url('section/inscription')}}" class="btn btn-secondary">Autre</a>
+        <a  href="{{url('admin/opensim')}}" class="btn btn-secondary">Inscriptions</a>
+        <a  href="{{url('admin/galerie')}}" class="btn btn-secondary">Gestionnaire de médias</a>
+        <a  href="{{url('admin/inscription')}}" class="btn btn-secondary">Autre</a>
       </div>
 
       <a class='btn btn-secondary disconnect' href="{{url('disconnect')}}" >Déconnexion</a>

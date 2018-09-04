@@ -1,8 +1,8 @@
 @include('partials.header')
 
-  <div class='content'>
+  <div class='content col-md-8 centered'>
 
-    <form class="col-md-5 centered" method="post" action="{{url('create_candidature')}}">
+    <form class="col-md-12 centered" method="post" action="{{url('create_candidature')}}">
       {{ csrf_field() }}
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
