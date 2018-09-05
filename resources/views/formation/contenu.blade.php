@@ -1,13 +1,5 @@
 @include('partials.header')
-<div class='content col-md-8 centered'>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis at est sed faucibus. Ut condimentum rutrum venenatis. Pellentesque pulvinar est elit, eu rhoncus diam venenatis non. Donec sodales porttitor lectus, sit amet cursus nunc blandit eget. Integer dictum turpis ante, ut faucibus mauris auctor laoreet. Morbi sagittis porttitor venenatis. Nam porta vulputate nibh semper maximus. Sed mollis venenatis nisi eu blandit. Nulla facilisi. Integer vulputate turpis massa, eget rutrum diam tempus quis. Fusce condimentum sagittis tempor. In leo massa, lobortis ut porttitor et, pretium id diam. Proin viverra in arcu sed blandit. Pellentesque non ipsum odio. Etiam ornare semper risus eget molestie.
-
-Phasellus ac commodo tellus. Praesent auctor vulputate erat, id feugiat eros scelerisque et. Nullam sodales tortor non est congue blandit. Nulla pulvinar, erat quis sagittis convallis, nibh nisl posuere erat, ac vulputate dolor dui et massa. Quisque cursus rhoncus dictum. Donec eleifend aliquet tincidunt. Suspendisse malesuada sem ac eros luctus hendrerit.
-
-Cras nec felis eu ipsum consectetur luctus. Donec a neque eget erat dictum tempor in nec turpis. Suspendisse egestas neque elementum eleifend finibus. Duis hendrerit lacus vel risus varius congue. Donec in aliquet nisl. Donec semper massa suscipit, egestas ante sed, convallis augue. Sed vitae urna vel dui faucibus pulvinar. Praesent est mauris, posuere et magna nec, varius fermentum ex. Nunc arcu nisl, lobortis ac ultrices ac, eleifend quis tellus.
-
-Donec et ligula quis nulla euismod fringilla ac et elit. Maecenas volutpat enim quis erat lacinia blandit. Phasellus hendrerit, nisi non accumsan consectetur, eros ex eleifend ante, at mollis mauris risus ac felis. Integer id vulputate orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur ex elit, semper ut luctus sit amet, bibendum et massa. Ut sit amet ex lobortis, hendrerit nibh sed, consequat diam. Aenean vitae mi quis velit tempus posuere. Morbi vel imperdiet felis. Cras maximus est cursus dui lacinia, a porttitor lorem auctor. Integer vulputate ipsum in massa vulputate mattis. Etiam volutpat nunc non fringilla tincidunt.
-
-Donec consectetur nisi tortor, vitae sollicitudin massa mollis sit amet. In hac habitasse platea dictumst. Fusce congue lacinia eros eget lacinia. Nullam vel fringilla mi, vel imperdiet justo. Cras libero libero, aliquet non commodo maximus, luctus sit amet eros. Nunc nec mollis urna, dapibus ultricies leo. Aenean non euismod lectus. In nisl neque, suscipit ac pellentesque ac, cursus et ligula. Aenean nec faucibus erat. Phasellus tellus quam, efficitur in dictum sit amet, consectetur eu nisi. Etiam dolor justo, luctus ut scelerisque non, tincidunt in orci. Nulla lacinia leo at tortor sollicitudin, quis tincidunt velit consequat.
+<div class='content col-md-7 centered'>
+  <img src="{{ URL::asset('img/contenu.png')}}" >
 </div>
 @include('partials.footer')

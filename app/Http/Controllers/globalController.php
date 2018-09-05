@@ -13,6 +13,7 @@ class GlobalController extends Controller
 
   public function get_formation($specification)
   {
+    $specification = $this->unaccent($specification);
     return view('formation/'.$specification);
   }
 
@@ -67,4 +68,11 @@ class GlobalController extends Controller
     $_SESSION['session'] = 'papassword';
     return redirect('admin');
   }
+
+  /* fonctions auxiliaires */
+
+  function unaccent($string)
+{
+    return preg_replace('~&([a-z]{1,2})(?:acute|cedil|circ|grave|lig|orn|ring|slash|th|tilde|uml|caron);~i', '$1', htmlentities($string, ENT_COMPAT, 'UTF-8'));
+}
 }

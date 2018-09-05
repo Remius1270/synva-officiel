@@ -1,13 +1,47 @@
 @include('partials.header')
-  <div class='content col-md-8 centered'>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis at est sed faucibus. Ut condimentum rutrum venenatis. Pellentesque pulvinar est elit, eu rhoncus diam venenatis non. Donec sodales porttitor lectus, sit amet cursus nunc blandit eget. Integer dictum turpis ante, ut faucibus mauris auctor laoreet. Morbi sagittis porttitor venenatis. Nam porta vulputate nibh semper maximus. Sed mollis venenatis nisi eu blandit. Nulla facilisi. Integer vulputate turpis massa, eget rutrum diam tempus quis. Fusce condimentum sagittis tempor. In leo massa, lobortis ut porttitor et, pretium id diam. Proin viverra in arcu sed blandit. Pellentesque non ipsum odio. Etiam ornare semper risus eget molestie.
+  <div class='content col-md- centered'>
+    <p>« Pour la rentrée 2018-2019 » Le recrutement se fera exclusivement sur dossier de candidature et entretien devant
+  un jury composé des responsables scientifiques du parcours SYNVA et un membre enseignant de l’équipe
+  pédagogique de cette même formation.
+  « A partir de la rentrée 2019-2020 » Validation de deux matières dans l’UE 21 parcours SYNVA du master 1
+  Science de l’éducation, Université de STRASBOURG.
+  Notre formation Master 2 SYNVA vise les étudiants provenant des diverses disciplines, ayant des prérequis soit en
+  informatique soit en éducation, formation ou encore un profil en technologies.
+  Les candidats doivent avoir validé un niveau Master 1 ou équivalent dans des filières sciences et SHS (sciences de
+  l’éducation, sciences du langage, didactique, psychologie, neurosciences).
+  Nous accueillons un public mixte, càd aussi bien des étudiants en formation initiale qu’en formation continue.
+  Parmi les étudiants attendus, seraient aussi des professeurs d’école qui exercent leurs activités dans des
+  établissements d’enseignement secondaire, notamment en lycées professionnels, technologiques...</p>
 
-Phasellus ac commodo tellus. Praesent auctor vulputate erat, id feugiat eros scelerisque et. Nullam sodales tortor non est congue blandit. Nulla pulvinar, erat quis sagittis convallis, nibh nisl posuere erat, ac vulputate dolor dui et massa. Quisque cursus rhoncus dictum. Donec eleifend aliquet tincidunt. Suspendisse malesuada sem ac eros luctus hendrerit.
+  <br/>
 
-Cras nec felis eu ipsum consectetur luctus. Donec a neque eget erat dictum tempor in nec turpis. Suspendisse egestas neque elementum eleifend finibus. Duis hendrerit lacus vel risus varius congue. Donec in aliquet nisl. Donec semper massa suscipit, egestas ante sed, convallis augue. Sed vitae urna vel dui faucibus pulvinar. Praesent est mauris, posuere et magna nec, varius fermentum ex. Nunc arcu nisl, lobortis ac ultrices ac, eleifend quis tellus.
+  <p>Etape de sélection
+- Examen du dossier de candidature
+- Entretien avec les membres du jury composé des deux responsables scientifiques du Master 2
+SYNVA et un enseignant membre de l’équipe pédagogique de cette même formation.
+- Chacune de ces modalités est associée à une grille d'évaluation critériée qui conduit à classer les
+candidats.
+- Seuls les candidats admissibles (suite à l’examen du dossier) seront convoqués à un entretien (environ
+20 min/candidat) devant un jury composé des membres de l’équipe pédagogique (responsables
+scientifiques du Master 2 SYNVA et un autre membre enseignant dans cette même formation).</p>
 
-Donec et ligula quis nulla euismod fringilla ac et elit. Maecenas volutpat enim quis erat lacinia blandit. Phasellus hendrerit, nisi non accumsan consectetur, eros ex eleifend ante, at mollis mauris risus ac felis. Integer id vulputate orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur ex elit, semper ut luctus sit amet, bibendum et massa. Ut sit amet ex lobortis, hendrerit nibh sed, consequat diam. Aenean vitae mi quis velit tempus posuere. Morbi vel imperdiet felis. Cras maximus est cursus dui lacinia, a porttitor lorem auctor. Integer vulputate ipsum in massa vulputate mattis. Etiam volutpat nunc non fringilla tincidunt.
+<br/>
 
-Donec consectetur nisi tortor, vitae sollicitudin massa mollis sit amet. In hac habitasse platea dictumst. Fusce congue lacinia eros eget lacinia. Nullam vel fringilla mi, vel imperdiet justo. Cras libero libero, aliquet non commodo maximus, luctus sit amet eros. Nunc nec mollis urna, dapibus ultricies leo. Aenean non euismod lectus. In nisl neque, suscipit ac pellentesque ac, cursus et ligula. Aenean nec faucibus erat. Phasellus tellus quam, efficitur in dictum sit amet, consectetur eu nisi. Etiam dolor justo, luctus ut scelerisque non, tincidunt in orci. Nulla lacinia leo at tortor sollicitudin, quis tincidunt velit consequat.
+<p>
+  Public visé :
+Formation initiale : inscription via le service de la scolarité de l’ESPE de Strasbourg
+Formation continue : inscription via le service de formation SFC de l’Université de Strasbourg
+Les candidats en Formation continue doivent monter leur dossier de demande de subvention auprès des
+organisme de formation habilités ou doivent prendre à leur charge les frais d’inscription, sous réserve
+d’admission confirmé par la commission pédagogique et la responsable scientifique du Master 2 SYNVA,
+Mme. Ecaterina Pacurar, MCF-HDR en sciences de l’éducation, ESPE de l’Université de Strasbourg.
+Le dossier de candidature doit comporter :
+- une lettre de motivation exposant notamment le projet professionnel du candidat
+- un Curriculum vitae,
+- une copie du diplôme niveau Master 1 ou équivalent Bac +4
+- relevé des notes du dernier diplôme obtenu du niveau Bac+4
+- un exposé de 2 pages (avec références bibliographiques non incluses) présentant un projet personnel de
+recherche-développement autour d’une thématique en lien avec la formation Master 2 SYNVA
+</p>
   </div>
 @include('partials.footer')

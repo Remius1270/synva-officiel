@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('accueil');
 });
 
+
 Route::get('formation/{specification}','GlobalController@get_formation');
 Route::get('section/{view}','GlobalController@get_view');
 

@@ -8,6 +8,8 @@
 
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
 
   <!-- css -->
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
@@ -41,12 +43,12 @@
     <nav class="navbar navbar-dark bg-dark">
             <div id='ariane' ></div>
       <div class="btn-group menu" role="group" aria-label="Button group with nested dropdown">
+        <a class="btn" href="{{url('section/accueil')}}">Accueil</a>
         <div class="btn-group" role="group">
           <button id="btnGroupDrop1" type="button" class="btn btn// border-radius dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Formation
           </button>
           <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-            <a class="dropdown-item" href="{{url('formation/presentation')}}">Présentation de la formation</a>
             <a class="dropdown-item" href="{{url('formation/contenu')}}">Contenu de la formation</a>
             <a class="dropdown-item" href="{{url('formation/equipe')}}">L'équipe pédagogique</a>
             <a class="dropdown-item" href="{{url('formation/débouchés')}}">Les débouchés</a>
