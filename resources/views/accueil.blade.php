@@ -1,36 +1,26 @@
 @include('partials.header')
 
-<div class='content col-md-8'>
+<div class='content col-md-6 centered'>
   <table class="options">
     <thead>
     </thead>
 
     <tbody>
       <tr>
-        <td>
-          <div class="block" >
+        <td class="squared-td">
             <a href="{{url('formation/presentation')}}">Présentation de la formation</a>
-          </div>
         </td>
-        <td>
-          <div class="block" >
+        <td class="squared-td">
             <a href="{{url('formation/contenu')}}">Contenu de la formation</a>
-          </div>
         </td>
-        <td>
-          <div class="block" >
+        <td class="squared-td">
             <a href="{{url('formation/equipe')}}">L'équipe pédagogique</a>
-          </div>
         </td>
-        <td>
-          <div class="block" >
+        <td class="squared-td">
             <a href="{{url('formation/débouchés')}}">Débouchés</a>
-          </div>
         </td>
-        <td>
-          <div class="block" >
+        <td class="squared-td">
             <a href="{{url('formation/admission')}}">Admission</a>
-          </div>
         </td>
       <tr/>
     </tbody>
