@@ -1,5 +1,5 @@
 @include('partials.header')
 <div class='content col-md-7 centered'>
-  <img src="{{ URL::asset('img/contenu.png')}}" >
+  {!! $text !!}
 </div>
 @include('partials.footer')

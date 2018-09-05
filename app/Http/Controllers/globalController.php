@@ -8,13 +8,20 @@ use App\Http\Requests;
 
 use App\Candidature;
 
+use App\Pages_content;
+
+use Illuminate\Database\Eloquent\Model;
+
 class GlobalController extends Controller
 {
 
   public function get_formation($specification)
   {
     $specification = $this->unaccent($specification);
-    return view('formation/'.$specification);
+    $text = Pages_content::where('name',$specification)->first()->content;
+    return view('formation/'.$specification,[
+      'text' => $text
+    ]);
   }
 
   public function get_view($view)
