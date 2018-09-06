@@ -28,6 +28,7 @@ Route::post('create_candidature','CandidaturesController@create_candidature');
 Route::get('admin','globalController@admin');
 Route::get('admin/inscriptions','globalController@inscriptions_liste');
 Route::get('admin/inscriptions/candidature/{id}','globalController@display_one');
+Route::get('admin/gestionnaire','globalController@pages_list');
 Route::get('disconnect','GlobalController@disconnect');
 
 Route::post('login','globalController@login');

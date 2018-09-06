@@ -70,11 +70,7 @@ class GlobalController extends Controller
     ]);
   }
 
-  public function disconnect()
-  {
-    $_SESSION['session'] = 'papassword';
-    return redirect('admin');
-  }
+
 
   /* fonctions auxiliaires */
 
@@ -82,4 +78,39 @@ class GlobalController extends Controller
 {
     return preg_replace('~&([a-z]{1,2})(?:acute|cedil|circ|grave|lig|orn|ring|slash|th|tilde|uml|caron);~i', '$1', htmlentities($string, ENT_COMPAT, 'UTF-8'));
 }
+
+public function disconnect()
+{
+  $_SESSION['session'] = 'papassword';
+  return redirect('admin');
+}
+
+public function pages_list()
+{
+  if($this->is_admin())
+  {
+    $pages = Pages_content::all()->toArray();
+    return view('admin/gestionnaire',[
+      "pages" => $pages
+    ]);
+  }
+  else{
+    return view('admin.admin_login',[
+      'success' => false
+    ]);
+  }
+}
+
+public function is_admin()
+{
+  if(isset($_SESSION['session']) && $_SESSION['session'] == 'password')
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+}
+
 }
