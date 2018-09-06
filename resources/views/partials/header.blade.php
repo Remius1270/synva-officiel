@@ -36,7 +36,7 @@
     <div class="synva-container col-md-8">
       <a href="{{url('section/accueil')}}" class="no-margin-padding banner-logo"  ><img src="{{ URL::asset('img/synva-logo.png') }}" class="no-margin-padding banner-logo"></a>
     </div>
-    <img src="{{ URL::asset('img/investissement-davenir.png') }}" class="no-margin-padding col-md-4 fit-in-banner" style="right:257px;">
+    <img src="{{ URL::asset('img/investissement-davenir.png') }}" class="no-margin-padding col-md-4 fit-in-banner" style="right:325px;">
     <img src="{{ URL::asset('img/espe-banner.png') }}" class="no-margin-padding col-md-4 fit-in-banner" style="right:0px;">
 
     <!-- Menu -->
