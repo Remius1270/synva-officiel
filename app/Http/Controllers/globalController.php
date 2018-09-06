@@ -70,6 +70,21 @@ class GlobalController extends Controller
     ]);
   }
 
+  public function pages_list()
+  {
+      $pages = Pages_content::all()->toArray();
+      return view('admin/gestionnaire',[
+        "pages" => $pages
+      ]);
+  }
+
+  public function modify_page($page_name)
+  {
+    $text = Pages_content::where('name',$page_name)->first()->content;
+    return view('admin/edit',[
+      'text' => $text
+    ]);
+  }
 
 
   /* fonctions auxiliaires */
@@ -85,24 +100,9 @@ public function disconnect()
   return redirect('admin');
 }
 
-public function pages_list()
-{
-  if($this->is_admin())
-  {
-    $pages = Pages_content::all()->toArray();
-    return view('admin/gestionnaire',[
-      "pages" => $pages
-    ]);
-  }
-  else{
-    return view('admin.admin_login',[
-      'success' => false
-    ]);
-  }
-}
-
 public function is_admin()
 {
+  dd($_SESSION['session']);
   if(isset($_SESSION['session']) && $_SESSION['session'] == 'password')
   {
     return true;

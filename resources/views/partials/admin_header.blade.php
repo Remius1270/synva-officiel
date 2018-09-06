@@ -29,6 +29,8 @@
 
 <body>
 
+<header>
+
   <!-- Logo and stuff -->
   <div id="banner-logo" class="fixed">
     <div class="synva-container col-md-8">
@@ -49,3 +51,4 @@
 
     </nav>
   </div>
+</header>

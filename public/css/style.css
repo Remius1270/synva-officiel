@@ -223,6 +223,15 @@ table{
   text-decoration: none;
 }
 
+.cell{
+  display: table-cell;
+  font-size: 1.3em;
+}
+
+.long-text{
+  
+}
+
 #ariane{
   float: left;
   color: white;
