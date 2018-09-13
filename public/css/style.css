@@ -246,8 +246,8 @@ table{
 
 .formation-bouton{
   display: inline-block;
-  width: 170px;
-  height: 150px;
+  width: 160px;
+  height: 165px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -265,15 +265,15 @@ table{
 .formation-bouton-img{
   position: relative;
   float: left;
-  width: 165px;
+  width: 155px;
   height: 110px;
   overflow: hidden;
 }
 
 .formation-bouton > p{
   display: block;
-  height: 40px;
-  width: 165px;
+  height: 55px;
+  width: 155px;
   position: absolute;
   bottom: 0;
   margin-bottom: 0;
