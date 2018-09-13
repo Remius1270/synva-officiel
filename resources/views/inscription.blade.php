@@ -1,11 +1,11 @@
 @include('partials.header')
 
-<div class='content col-md-8 centered'>
+<div class='content col-md-12 centered'>
 
- <form class="col-md-12 centered" method="post" action="{{url('create_candidature')}}">
+ <form class="col-md-8 centered" method="post" action="{{url('create_candidature')}}">
       {{ csrf_field() }}
 
-
+<br/>
 <h3>Dossier de candidature</h3>
 <h5>La promotion 2018 - 2019 se déroule du 1 octobre 2018 – 20 septembre 2019.</h5>
 
