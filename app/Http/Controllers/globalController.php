@@ -19,8 +19,10 @@ class GlobalController extends Controller
   {
     $specification = $this->unaccent($specification);
     $text = Pages_content::where('name',$specification)->first()->content;
+    $title = Pages_content::where('name',$specification)->first()->name;
     return view('formation/'.$specification,[
-      'text' => $text
+      'text' => $text,
+      'name' => $title
     ]);
   }
 
