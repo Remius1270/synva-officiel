@@ -83,9 +83,21 @@ class GlobalController extends Controller
   public function modify_page($page_name)
   {
     $text = Pages_content::where('name',$page_name)->first()->content;
+    $title = Pages_content::where('name',$page_name)->first()->name;
     return view('admin/edit',[
-      'text' => $text
+      'text' => $text,
+      'title' => $title
     ]);
+  }
+
+  public function save_page(Request $request)
+  {
+    $text = Pages_content::where('name',$request->input('page'))->first();
+    $text->content = $request->input('text');
+    $text->save();
+
+    return redirect('admin/gestionnaire');
+
   }
 
 

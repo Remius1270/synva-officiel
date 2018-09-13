@@ -31,5 +31,6 @@ Route::get('admin/inscriptions/candidature/{id}','globalController@display_one')
 Route::get('admin/gestionnaire','globalController@pages_list');
 Route::get('disconnect','GlobalController@disconnect');
 Route::get('admin/gestionnaire/{page}','GlobalController@modify_page');
+Route::post('save/page','GlobalController@save_page');
 
 Route::post('login','globalController@login');
