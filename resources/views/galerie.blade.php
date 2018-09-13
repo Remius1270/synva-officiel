@@ -9,7 +9,11 @@
       }
     </style>
 
+<<<<<<< Updated upstream
   </thead>
+=======
+  
+>>>>>>> Stashed changes
 
 <tbody>
   <table class="opensimphoto">

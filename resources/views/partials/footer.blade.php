@@ -1,8 +1,7 @@
 
 <footer>
-  Conctact:<br/>
-  Antoine Vermare - 06 06 06 06 60<br/>
-  Univseristé de Strasbourg<br/>
+  <br/>
+  Copyright SYNVA - Université de Strasbourg
 </footer>
 
 </body>

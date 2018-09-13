@@ -14,6 +14,7 @@
   <!-- css -->
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ URL::asset('css/style.css')}}">
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
 
   <!-- js -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
