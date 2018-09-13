@@ -8,7 +8,7 @@
        {{$text}}
      </textarea>
      <br/>
-     <input name='page' value="{{$title}}" type="text" style="visibility:hidden;">
+     <input name='page' value="{{$title}}" type="text" style="visibility:hidden;"><br/>
      <input type="submit"  value="Enregistrer" >
 
    </form>

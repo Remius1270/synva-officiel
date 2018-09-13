@@ -12,15 +12,16 @@
   <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
 
   <!-- css -->
-  <link rel="stylesheet" href="{{ URL::asset('css/boostrap.css')}}" >
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ URL::asset('css/style.css')}}">
   <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
   <!-- js -->
-  <script src="{{ URL::asset('js/jquery3.3.1.js')}}" ></script>
-    <script src="{{ URL::asset('js/bootstrap.js')}}"></script>
-  <script src="{{ URL::asset('js/jspdf.js')}}" ></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" ></script>
+  <script src="{{URL::asset('js/jspdf.js')}}" ></script>
   <script src="{{ URL::asset('js/script.js')}}"></script>
+
   <!-- fin -->
 
   <title>Synva</title>
