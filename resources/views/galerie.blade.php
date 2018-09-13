@@ -6,18 +6,12 @@
   </thead>
 
 <tbody>
-  <table class="opensimphoto col-md-12">
-      <tr class="galery-img-container col-md-12" >
-        <td class="col-md-3" ><a href="{{URL::asset('img/opensim/4_001.jpg')}}" ><img  class="galery-img" id="img1" src="{{URL::asset('img/opensim/4_001.jpg')}}"></a></td>
-        <td class="col-md-3" ><a href="{{URL::asset('img/opensim/4_001.jpg')}}" ><img  class="galery-img" id="img1" src="{{URL::asset('img/opensim/4_001.jpg')}}"></a></td>
-        <td class="col-md-3" ><a href="{{URL::asset('img/opensim/4_001.jpg')}}" ><img  class="galery-img" id="img1" src="{{URL::asset('img/opensim/4_001.jpg')}}"></a></td>
+  <table class="opensimphoto col-md-5 centered" style="text-align:center;display:table;">
+    @foreach($images as $image)
+      <tr class="galery-img-container col-md-8 centered" >
+        <td><a href="{{URL::asset($image)}}" ><img src="{{ URL::asset($image)}}" class="galery-img"></a></td>
       </tr>
-      <tr class="galery-img-container" >
-        <td class="col-md-3" ><a href="{{URL::asset('img/opensim/4_001.jpg')}}" ><img  class="galery-img" id="img1" src="{{URL::asset('img/opensim/4_001.jpg')}}"></a></td>
-        <td class="col-md-3" ><a href="{{URL::asset('img/opensim/4_001.jpg')}}" ><img  class="galery-img" id="img1" src="{{URL::asset('img/opensim/4_001.jpg')}}"></a></td>
-        <td class="col-md-3" ><a href="{{URL::asset('img/opensim/4_001.jpg')}}" ><img  class="galery-img" id="img1" src="{{URL::asset('img/opensim/4_001.jpg')}}"></a></td>
-      </tr>
-
+    @endforeach
   </table>
 </tbody>
 </div>

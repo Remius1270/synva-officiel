@@ -10,6 +10,8 @@ use App\Candidature;
 
 use App\Pages_content;
 
+use Illuminate\Http\UploadedFile;
+
 use Illuminate\Database\Eloquent\Model;
 
 class GlobalController extends Controller
@@ -28,7 +30,10 @@ class GlobalController extends Controller
 
   public function get_view($view)
   {
-    return view($view);
+    $images = \File::allFiles('img/gallerie');
+    return view($view,[
+      'images' => $images
+    ]);
   }
 
   public function admin()
@@ -99,6 +104,32 @@ class GlobalController extends Controller
     return redirect('admin/gestionnaire');
 
   }
+
+  public function galerie()
+  {
+    $images = \File::allFiles('img/gallerie');
+    return view('admin/galerie',[
+      'images' => $images
+    ]);
+  }
+
+  public function delete($file)
+  {
+    \File::delete(public_path('img/gallerie/').$file.'.png');
+    return redirect('admin/galerie');
+  }
+
+  public function upload_pic(Request $request)
+  {
+    if ($request->hasFile('fileToUpload')) {
+        $image = $request->file('fileToUpload');
+        $name = time().'.'.$image->getClientOriginalExtension();
+        $destinationPath = public_path('img/gallerie/');
+        $image->move($destinationPath, $name);
+
+    return redirect('admin/galerie');
+  }
+}
 
 
   /* fonctions auxiliaires */

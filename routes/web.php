@@ -25,10 +25,13 @@ Route::post('create_candidature','CandidaturesController@create_candidature');
 
 // Admin routes
 
+Route::get('admin/supprimer/{file}','globalController@delete');
 Route::get('admin','globalController@admin');
 Route::get('admin/inscriptions','globalController@inscriptions_liste');
 Route::get('admin/inscriptions/candidature/{id}','globalController@display_one');
 Route::get('admin/gestionnaire','globalController@pages_list');
+Route::get('admin/galerie','globalController@galerie');
+Route::post('admin/add_picture','globalController@upload_pic');
 Route::get('disconnect','GlobalController@disconnect');
 Route::get('admin/gestionnaire/{page}','GlobalController@modify_page');
 Route::post('save/page','GlobalController@save_page');
